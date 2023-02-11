@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <!--Main Section-->
+    <section class="main">
+        <h1 class="title">Registeration Form</h1>
+        <form action="#">
+            <div class="main-box">
+                <div class="input-box">
+                    <span class="text">Full Name</span>
+                    <input type="text" placeholder="Please enter your" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Username</span>
+                    <input type="text" placeholder="Please enter your" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Email</span>
+                    <input type="email" placeholder="Please enter your" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Phone Number</span>
+                    <input type="tel" placeholder="Please enter your" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Password</span>
+                    <input type="password" placeholder="Please enter your" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Confirm Password</span>
+                    <input type="password" placeholder="Please enter your" required>
+                </div>
+            </div>
+
+            <!--Container-->
+            <div class="container">
+                <input type="radio" name="gender" id="circle-1">
+                <input type="radio" name="gender" id="circle-2">
+                <input type="radio" name="gender" id="circle-3">
+                <span class="gender">Gender</span>
+                <div class="category">
+                    <label for="circle-1">
+                        <span class="circle one"></span>
+                        <span class="human">Male</span>
+                    </label>
+
+                    <label for="circle-2">
+                        <span class="circle two"></span>
+                        <span class="human">Female</span>
+                    </label>
+
+                    <label for="circle-3">
+                        <span class="circle three"></span>
+                        <span class="human">Other</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
